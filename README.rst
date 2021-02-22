@@ -26,7 +26,6 @@ Please keep the repo sorted like so::
              └─ vendorname
                 └─ devicename
                    ├─ index.rst
-                   ├─ devicetree.dts
                    └─ picture.png
 
 Editing
