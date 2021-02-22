@@ -1,0 +1,31 @@
+name: github-pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Installing Dependencies
+        run: sudo apt update && sudo apt install python3-sphinx python3-sphinx-rtd-theme
+
+      - name: Build docs
+        run: |
+          make dirhtml
+
+      - name: Restore CNAME
+        run: |
+          echo "docs.somainline.org" > build/dirhtml/CNAME
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: somainline/somainline.github.io
+          publish_branch: gh-pages
+          publish_dir: ./build/dirhtml
