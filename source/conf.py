@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'SoMainline Docs'
-copyright = '2021, SoMainline Team'
+copyright = '2021, The SoMainline Team'
 author = 'Team'
 
 
@@ -73,7 +73,8 @@ html_theme = 'sphinx_rtd_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    "collapse_navigation": False
+    "collapse_navigation": False,
+    "logo_only": True
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -90,6 +91,9 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+
+html_favicon = 'favicon.ico'
+html_logo = 'header.png'
 
 # -- Extension configuration -------------------------------------------------
 
