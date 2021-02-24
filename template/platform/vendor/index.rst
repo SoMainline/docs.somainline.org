@@ -1,4 +1,4 @@
-VENDORNAME PLATFORMNAME (CHANGE CODENAME if exists)
+VENDORNAME PLATFORMNAME (codename?)
 ===================================================
 :orphan:
 Platform information goes here.
