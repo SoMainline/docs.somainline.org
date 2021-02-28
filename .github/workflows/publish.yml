@@ -15,8 +15,9 @@ jobs:
         run: sudo apt update && sudo apt install python3-sphinx python3-sphinx-rtd-theme
 
       - name: Build docs
+        # -W turns warnings into errors
         run: |
-          make dirhtml
+          sphinx-build -b dirhtml -W "source" "build"
 
       - name: Restore CNAME
         run: |
