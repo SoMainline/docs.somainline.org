@@ -3,18 +3,12 @@ Kernel Compilation
 
 Packages for mainline compilation (GCC suite):
 
-.. TODO: binutils should be a dep of gcc, and you really don't need
-.. any of the other packages to compile the kernel?
-
 .. code::
 
     aarch64-linux-gnu-binutils
     aarch64-linux-gnu-gcc
-    aarch64-linux-gnu-gdb
-    aarch64-linux-gnu-glibc
-    aarch64-linux-gnu-linux-api-headers
 
-Clang packages
+Clang packages:
 
 .. code::
 
