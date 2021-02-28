@@ -15,12 +15,13 @@ jobs:
         run: sudo apt update && sudo apt install python3-sphinx python3-sphinx-rtd-theme
 
       - name: Build docs
+        # -W turns warnings into errors
         run: |
-          make dirhtml
+          sphinx-build -b dirhtml -W "source" "build"
 
       - name: Restore CNAME
         run: |
-          echo "docs.somainline.org" > build/dirhtml/CNAME
+          echo "docs.somainline.org" > build/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -28,4 +29,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: somainline/somainline.github.io
           publish_branch: gh-pages
-          publish_dir: ./build/dirhtml
+          publish_dir: ./build
