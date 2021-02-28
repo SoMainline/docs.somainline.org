@@ -27,7 +27,6 @@ SoMainline Docs
    :caption: Guides
 
    guides/minimal-android.rst
-   guides/porting.rst
 
 .. toctree::
    :hidden:
