@@ -1,0 +1,17 @@
+name: sphinx-check
+
+on: [pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Installing Dependencies
+        run: sudo apt update && sudo apt install python3-sphinx python3-sphinx-rtd-theme
+
+      - name: Check docs
+        # -W turns warnings into errors
+        run: |
+          sphinx-build -b dirhtml -W "source" "build"
