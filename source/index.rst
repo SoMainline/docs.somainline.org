@@ -32,6 +32,13 @@ SoMainline Docs
 .. toctree::
    :hidden:
    :maxdepth: 1
+   :caption: Reference
+
+   reference/compilation.rst
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
    :caption: Resources
 
    Overview <resources/index.rst>
