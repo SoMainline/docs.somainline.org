@@ -46,6 +46,8 @@ By adding data to the knowledge base, you agree:
 * the data you submit is factually accurate,
 * that if the data in question is a register dump, magic sequence or a different non-open-coded information, you provide a way to reproduce the dump.
 
+Please see the `Getting the Info <https://docs.halium.org/en/latest/supplementary/devices/index.html#getting-the-info>`_ section of the postmarketOS docs for obtaining device specifics.
+
 License
 -------
 
