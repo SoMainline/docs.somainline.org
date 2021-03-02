@@ -5,9 +5,9 @@ Glossary of names, acronyms, subsystems and more.
 
 .. Keep this sorted alphabetically!
 
-====================  ======================================  ========================================
+====================  ======================================= ========================================
 Short                 Full                                    Meaning
-====================  ======================================  ========================================
+====================  ======================================= ========================================
 aDSP                  Audio Digital Signal Processor          Qualcomm-specific
 AMSS                  Advanced Mobile Subscriber Software     Qualcomm-specific
 APQ                   Application Processor Qualcomm          Qualcomm-specific
