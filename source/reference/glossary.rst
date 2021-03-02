@@ -66,6 +66,7 @@ VMIDMT                Virtual Machine ID Mapping Table        ARM??
 WCD                   Wafer CoDec                             Qualcomm-specific
 WCN                   Wireless Connectivity Network           Qualcomm-specific
 WCNSS                 Wireless Connectivity Network SubSystem Qualcomm-specific
+WDSP                  Wideband Digital Signal Processor       Generic
 XBL                   eXtensible BootLoader                   Qualcomm-specific
 ====================  ======================================= ========================================
 
