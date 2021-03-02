@@ -63,10 +63,12 @@ TZBSP                 TrustZone Board Support Package         Qualcomm-specific?
 VBIF                  Video Bus InterFace                     Qualcomm-specific
 VFE                   Video Front End                         Qualcomm-specific
 VMIDMT                Virtual Machine ID Mapping Table        ARM??
-WCD                   Wafer CoDec                             Qualcomm-specific
+WCD                   Wafer-Scale Package CoDec               Qualcomm-specific
 WCN                   Wireless Connectivity Network           Qualcomm-specific
 WCNSS                 Wireless Connectivity Network SubSystem Qualcomm-specific
 WDSP                  Wideband Digital Signal Processor       Generic
+WSA                   Wafer-Scale Package Smart Amplifier     Qualcomm-specific
+WSP                   Wafer-Scale Package                     Qualcomm-specific
 XBL                   eXtensible BootLoader                   Qualcomm-specific
 ====================  ======================================= ========================================
 
