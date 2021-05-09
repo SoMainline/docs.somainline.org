@@ -1,5 +1,5 @@
 Xiaomi MSM8996 (Gemini/Scorpio/Capricorn/Lithium/Natrium)
-===================================================
+=========================================================
 
 Platform information goes here.
 
