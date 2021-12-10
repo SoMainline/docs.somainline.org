@@ -95,6 +95,13 @@ html_static_path = ['_static']
 html_favicon = 'favicon.ico'
 html_logo = 'header.png'
 
+html_context = {
+  'display_github': True,
+  'github_user': 'SoMainline',
+  'github_repo': 'docs.somainline.org',
+  'github_version': 'master/source/',
+}
+
 # -- Extension configuration -------------------------------------------------
 
 # -- Options for intersphinx extension ---------------------------------------
