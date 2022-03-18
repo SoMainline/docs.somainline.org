@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Installing Dependencies
-        run: sudo apt update && sudo apt install python3-sphinx python3-sphinx-rtd-theme
+        run: sudo apt install python3-sphinx python3-sphinx-rtd-theme
 
       - name: Build docs
         # -W turns warnings into errors
