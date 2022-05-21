@@ -30,6 +30,7 @@ author = 'Team'
 extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
+    "sphinxext.opengraph",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -111,3 +112,9 @@ html_context = {
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 #todo_include_todos = True
+
+# -- Options for opengraph extension -----------------------------------------
+
+ogp_site_name = "SoMainline Docs"
+ogp_site_url = "https://docs.somainline.org/"
+ogp_image = "https://docs.somainline.org/_static/header.png"

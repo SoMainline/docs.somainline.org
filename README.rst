@@ -6,7 +6,12 @@ This repository is a place for all the knowledge about our SoCs and devices that
 Building
 --------
 
-Install ``python-sphinx`` and ``python-sphinx-rtd-theme``.
+Install ``python-sphinx`` and ``python-sphinx-rtd-theme`` as well as the
+``sphinxext-opengraph`` sphinx extension.
+
+.. code-block:: console
+
+   pip install sphinx sphinx-rtd-theme sphinxext-opengraph
 
 Run ``make html`` and open ``build/html/index.html`` in your browser.
 
