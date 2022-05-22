@@ -34,7 +34,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: somainline/somainline.github.io
+          external_repository: somainline/docs.somainline.org-deploy
           publish_branch: gh-pages
           publish_dir: ./build
           cname: "docs.somainline.org"
